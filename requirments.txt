@@ -3,3 +3,7 @@ numpy
 telethon
 re
 dotenv
+transformers datasets
+PyTorch
+TensorFlow
+Flax

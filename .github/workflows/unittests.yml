@@ -18,6 +18,10 @@ jobs:
     # This section defines the steps that will be executed as part of the job
     steps:
     - uses: actions/checkout@v3 # Updated to v3 for compatibility with Node.js 16 and 20
+    - name: Set up Node.js # Sets up the Node.js environment
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20' # Specifies the Node.js version to use
     - name: Set up Python # Sets up the Python environment
       uses: actions/setup-python@v4 # Updated to v4 for compatibility with Node.js 16 and 20
       with:

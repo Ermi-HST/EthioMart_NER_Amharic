@@ -8,3 +8,7 @@ datasets
 PyTorch
 TensorFlow
 Flax
+evaluate
+accelerate
+shap
+seqeval
